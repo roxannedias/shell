@@ -8,10 +8,10 @@ set -x
 # > Add your code below each comment to complete the tasks
 
 # 1. Create 5 directories named dir1, dir2, dir3, dir4, and dir5
-mkdir ~/dir{1..5}
+mkdir dir{1..5}
 
 # 2. List the contents of the parent directory to verify the presence of the 5 directories
-ls ~
+ls .
 
 # 3. Create 5 text files in dir2 named file1, file2, file3, file4, and file5
 touch dir2/file{1..5}.txt
