@@ -14,7 +14,7 @@ mkdir dir{1..5}
 ls -l
 
 # 3. Create 5 text files in dir2 named file1, file2, file3, file4, and file5
-touch directory2/file{1..5}.txt
+touch dir2/file{1..5}.txt
  
 # 4. Append the words "Hello world" to file3
 echo "Hello world" >> dir2/file3.txt
